@@ -2,7 +2,6 @@ require "./graphql"
 
 fn = ->(field_ptr : Pointer(LibGraphQLParser::Astfield), error : Pointer(Void)){
   name_ptr = LibGraphQLParser.ast_field_get_name(field_ptr)
-  # puts name_ptr.value
   value_ptr = LibGraphQLParser.ast_name_get_value(name_ptr)
   puts value_ptr.value
   0
