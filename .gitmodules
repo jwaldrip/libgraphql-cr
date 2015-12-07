@@ -2,3 +2,6 @@
 	path = libgraphqlparser
 	url = git@github.com:graphql/libgraphqlparser.git
 	
+[submodule "crystal_lib"]
+	path = crystal_lib
+	url = git@github.com:manastech/crystal_lib.git
