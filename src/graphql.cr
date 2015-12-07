@@ -1,5 +1,5 @@
 @[Link(ldflags: "-L libgraphqlparser -lgraphqlparser")]
-lib LibGraphQLParser
+lib GraphQLParser
   alias Astdefinition = Void
   alias Astdocument = Void
   fun ast_document_get_definitions_size = GraphQLAstDocument_get_definitions_size(node : Astdocument*) : LibC::Int
